@@ -24,6 +24,14 @@ body{
 	margin:0;
 	width:100%;
 	height:100%;
+	background-size:cover;
+	background-position:center bottom;
+}
+
+.topimg{
+	margin:0;
+	width:100%;
+	height:90%;
 	background-image:url('http://davidhellmann.com/wordpress/wp-content/themes/flatman/assets/img/img_home_davidhellmann.jpg');
 	background-size:cover;
 	background-position:center bottom;
@@ -88,4 +96,11 @@ ul .sec{
 	float:right;
 	display:inline-block;
 	margin:0;
+}
+
+section.second{
+	width:100%;
+	height:800px;
+	background:#ff7a8f;
+
 }
