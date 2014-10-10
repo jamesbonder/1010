@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box; }
+
+html {
+  height: 100%;
+  width: 100%; }
+
+body {
+  margin: 0;
+  font-family: "ff-tisa-web-pro",serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: relative;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  color: #272f38;
+  height: 100%; }
+
+.topwrapper {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("http://davidhellmann.com/wordpress/wp-content/themes/flatman/assets/img/img_home_davidhellmann.jpg");
+  background-size: cover;
+  background-position: center bottom; }
+
+.topheader {
+  width: 100%;
+  padding: 0 20px;
+  height: 60px;
+  position: absolute;
+  background: rgba(56, 68, 82, 0.25);
+  margin: 0; }
+
+.topnav {
+  width: 100%;
+  max-width: 1160px;
+  margin: 0;
+  font-family: "museo-sans",sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  height: 60px; }
+  .topnav a {
+    line-height: 30px;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block; }
+  .topnav h1 {
+    display: inline-block;
+    float: left;
+    line-height: 60px;
+    margin: 0; }
+  .topnav ul li {
+    display: inline-block;
+    padding: 0 20px; }
+  .topnav ul li:hover {
+    background: #272f38; }
+
+ul.prim {
+  display: inline-block;
+  margin: 0;
+  line-height: 60px;
+  padding: 0 0 0 80px;
+  height: 60px; }
+
+li.prim:hover {
+  background-color: #272f38; }
+
+ul .sec {
+  float: right;
+  display: inline-block;
+  margin: 0; }
